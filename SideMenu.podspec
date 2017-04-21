@@ -89,10 +89,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SideMenu", "SideMenu/**/*.{h,m,png}"
+  s.source_files  = "SideMenu", "SideMenu/**/*.{swift}"
   s.exclude_files = "SideMenu/Exclude"
 
-  s.public_header_files = "SideMenu/**/*.h"
+  s.public_header_files = "SideMenu/**/*.swift"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

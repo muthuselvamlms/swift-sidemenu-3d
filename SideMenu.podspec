@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/muthuselvamlms/swift-sidemenu-3d", :tag => s.version }
+  s.source       = { :git => "https://github.com/muthuselvamlms/swift-sidemenu-3d.git", :tag => s.version }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
